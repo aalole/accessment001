@@ -1,0 +1,200 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+   border-spacing: 0;
+}
+*,
+*:before,
+*:after{
+      -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+              box-sizing: border-box;
+}
+
+
+.container {
+  position: relative;
+  z-index: 10px;
+  margin-left: 150px;
+  margin-top: 100px;
+  margin-right: 50px;
+  
+
+}
+
+/*
+====================================
+body set-up
+====================================
+*/
+
+body {
+  background-image: linear-gradient(to top, rgba(7, 23, 31, 0.589), rgba(74, 85,115, 0.8)), url(../images/mmc.jpg);
+
+  background-size: cover;
+}
+
+/*
+====================================
+navigation bar
+====================================
+*/
+
+
+button{
+  font-weight: 500;
+  font-size: 13px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: indianred;
+  color: aliceblue;
+}
+
+
+
+
+.seek{
+  margin-top: -40px;
+  float: right;
+  margin-right: 120px;
+}
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.seek a{
+  font-display: bold;
+  text-decoration: none;
+  margin-right: 35px;
+  color: aliceblue;
+  font-size: 15px;
+
+}
+
+
+/*
+====================================
+right image, and texts on it
+====================================
+*/
+
+.adv a:hover {
+  color: white;
+  padding-right: 5px;
+}
+.adv img:hover {
+padding-left:5px;
+}
+
+
+.adv{
+  border: solid, 1cm;
+  float: right;
+  display: inline-block;
+  color: aliceblue;
+  margin-right: 135px;
+  margin-top: -400px;
+}
+
+.adv h3, h5 {
+  position: relative;
+  bottom: 1.0cm;
+  left: 0.2cm;
+  z-index: auto;
+ }
+
+ /*
+====================================
+the bottom-right date and schedules
+====================================
+*/
+
+.date{
+  font-size: 15px;
+  float: right;
+  color: aliceblue;
+  margin-top: -300px;
+  padding-right: 95px;
+}
+
+
+/*
+====================================
+right side of the page
+====================================
+*/
+
+.who {
+  position: static;
+  z-index: 10px;
+  font-size: 20px;
+  color: aliceblue;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom:5cm;
+}
+.who p{
+  font-weight: bold;
+  font-size: 80px;
+  color: indianred;
+}
+
+.look{
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.repeat{
+text-anchor: end;
+font-size: 90px;
+margin-top: 150px;
+}
+
+
+
+
+
+
+
+
